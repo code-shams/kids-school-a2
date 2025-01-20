@@ -6,9 +6,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.hide {
+    display: none;
+}
 .header,
 .main {
-    max-width: 1160px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 .primary-font {
@@ -17,13 +20,12 @@
 }
 .secondary-font {
     font-family: "Raleway", serif;
-    font-style: normal;
 }
 /* 🔥=== === === === === === === === === === === === ===🔥 */
 /* 🌟<== <<<<<<<< <==>  Navbar Styles  <==> >>>>>>>> ==>🌟 */
 .header {
     margin-top: 20px;
-    margin-bottom: 60px;
+    padding: 0px 120px;
 }
 .navbar {
     padding: 0px 10px;
@@ -86,6 +88,7 @@
     display: flex;
     align-items: center;
     gap: 50px;
+    justify-content: space-between;
 }
 .banner-header {
     font-size: 3.5rem;
@@ -113,4 +116,101 @@
     font-weight: 700;
     color: white;
     padding: 10px 45px;
+}
+/* 🔥=== === === === === === === === === === === === ===🔥 */
+/*🌟<== <<< <==>  Curriculum section Styles  <==> >>> ==>🌟*/
+.curriculum-container {
+    background: url(../assets/bg.png);
+    background-size: cover;
+    padding-top: 50px;
+    background-position-x: -80px;
+}
+.curriculum-container > h3 {
+    font-size: 2.85rem;
+    font-weight: 700;
+    text-align: center;
+}
+.curriculum-cards-container {
+    padding: 0px 120px;
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+    margin-bottom: 60px;
+}
+.curriculum-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 52px 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.05);
+}
+.curriculum-card-title {
+    color: rgb(32, 32, 32);
+    font-size: 1.57rem;
+    font-weight: 700;
+    text-align: center;
+}
+.curriculum-card-info {
+    color: rgb(128, 128, 128);
+    font-size: 0.9rem;
+    font-weight: 500;
+    line-height: 28.3px;
+    text-align: center;
+}
+
+.curriculum-card-btn button {
+    font-size: 0.9rem;
+    font-weight: 700;
+    background: none;
+    border: none;
+}
+#curriculum-card-1 {
+    background: linear-gradient(
+        to bottom,
+        rgb(222, 245, 255),
+        rgba(255, 255, 255, 0),
+        white
+    );
+    border: 2px solid rgb(222, 245, 255);
+}
+#curriculum-card-1 button {
+    color: rgb(100, 200, 255);
+}
+#curriculum-card-2 {
+    background: linear-gradient(
+        to bottom,
+        rgb(255, 244, 220),
+        rgba(255, 255, 255, 0),
+        white
+    );
+    border: 2px solid rgb(255, 244, 220);
+}
+#curriculum-card-2 button {
+    color: rgb(240, 170, 0);
+}
+#curriculum-card-3 {
+    background: linear-gradient(
+        to bottom,
+        rgb(238, 225, 255),
+        rgba(255, 255, 255, 0),
+        white
+    );
+    border: 2px solid rgb(238, 225, 255);
+}
+#curriculum-card-3 button {
+    color: rgb(135, 0, 255);
+}
+.curriculum-button {
+    text-align: center;
+}
+.curriculum-button i {
+    font-size: 1.25rem;
+    color: white;
+    background: orange;
+    padding: 20px;
+    border-radius: 50px;
+    margin-left: 8px;
 }
