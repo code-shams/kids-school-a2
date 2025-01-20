@@ -24,7 +24,6 @@
 .header {
     margin-top: 20px;
     margin-bottom: 60px;
-    /* padding: 0px 20px; */
 }
 .navbar {
     padding: 0px 10px;
@@ -81,3 +80,37 @@
     display: none;
 }
 /* 🔥=== === === === === === === === === === === === ===🔥 */
+/*🌟<== <<<<< <==>  Banner section Styles  <==> >>>>> ==>🌟*/
+.banner-container {
+    padding: 0px 10px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.banner-header {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: rgb(17, 17, 17);
+    margin-bottom: 24px;
+}
+#orange {
+    color: rgb(254, 163, 1);
+}
+#blue {
+    color: rgb(1, 172, 253);
+}
+.banner-info {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgb(17, 17, 17);
+    margin-bottom: 24px;
+}
+.banner-btn button {
+    background-color: rgb(17, 17, 17);
+    border: none;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    padding: 10px 45px;
+}
