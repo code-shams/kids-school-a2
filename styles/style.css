@@ -1,1 +1,83 @@
- 
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+/* 🌟<== === Shared Styles === ==>🌟 */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header,
+.main {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.primary-font {
+    font-family: "Quicksand", serif;
+    font-style: normal;
+}
+.secondary-font {
+    font-family: "Raleway", serif;
+    font-style: normal;
+}
+/* 🔥=== === === === === === === === === === === === ===🔥 */
+/* 🌟<== <<<<<<<< <==>  Navbar Styles  <==> >>>>>>>> ==>🌟 */
+.header {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    /* padding: 0px 20px; */
+}
+.navbar {
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-header {
+    color: rgb(17, 17, 17);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.nav-links {
+    display: flex;
+    gap: 32px;
+}
+.nav-links li {
+    list-style: none;
+}
+.nav-links li a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+#nav-home {
+    font-weight: 700;
+    color: rgb(254, 163, 1);
+}
+#nav-about {
+    color: rgb(1, 172, 253);
+}
+#nav-facilities {
+    color: rgb(5, 212, 223);
+}
+#nav-admission {
+    color: rgb(93, 88, 239);
+}
+.nav-btn button {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    padding: 10px 60px;
+}
+.nav-ham-menu,
+.nav-hr {
+    display: none;
+}
+/* 🔥=== === === === === === === === === === === === ===🔥 */

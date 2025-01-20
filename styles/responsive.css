@@ -1,0 +1,19 @@
+@media screen and (max-width: 576px) {
+    .hidden-on-mobile {
+        display: none;
+    }
+    /* 🌟<== <<<<<< <==>  Navbar Styles  <==> >>>>>> ==>🌟 */
+    .navbar {
+        padding-bottom: 10px;
+    }
+    .nav-ham-menu,
+    .nav-hr {
+        display: contents;
+    }
+    .nav-ham-menu i {
+        font-size: 1.5rem;
+    }
+    .nav-hr hr{
+        border-top: 1px solid rgb(254, 163, 1);
+    }
+}
