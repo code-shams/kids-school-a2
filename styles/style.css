@@ -317,6 +317,53 @@
     background: darkorange;
 }
 
+/* 🔥=== === === === === === === === === === === === ===🔥 */
+/*🌟 <== <<< <==>  Footer section Styles  <==> >>> ==> 🌟*/
+.footer {
+    padding: 120px 140px;
+    background: rgb(1, 172, 253);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 100px;
+}
+.footer-title {
+    display: flex;
+}
+.footer-title h3 {
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 35px;
+}
+.footer-text-info {
+    margin-top: 35px;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.footer-link {
+    list-style: none;
+    margin-bottom: 20px;
+}
+.footer-link a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.footer-link-container-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+.footer-social-container-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 30px;
+}
+/* Hide on larger screens */
 .hide {
     display: none;
 }
