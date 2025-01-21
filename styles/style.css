@@ -81,6 +81,12 @@
 }
 /* 🔥=== === === === === === === === === === === === ===🔥 */
 /*🌟<== <<<<< <==>  Banner section Styles  <==> >>>>> ==>🌟*/
+marquee {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(187, 71, 255);
+}
 .banner-container {
     padding: 0px 10px;
     display: flex;
@@ -204,13 +210,18 @@
 .curriculum-button {
     text-align: center;
 }
+
 .curriculum-button i {
     font-size: 1.25rem;
     color: white;
     background: orange;
-    padding: 20px;
+    padding: 20px 25px;
     border-radius: 50px;
     margin-left: 8px;
+}
+.curriculum-button i:hover {
+    background-color: powderblue;
+    box-shadow: 0 0 15px rgba(136, 249, 251, 0.885);
 }
 /* 🔥=== === === === === === === === === === === === ===🔥 */
 /*🌟 <== <<< <==>  Stories section Styles  <==> >>> ==> 🌟*/
@@ -364,6 +375,7 @@
     color: white;
     margin-bottom: 30px;
 }
+
 /* Hide on larger screens */
 .hide {
     display: none;
