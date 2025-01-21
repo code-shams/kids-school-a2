@@ -1,4 +1,7 @@
 @media screen and (max-width: 576px) {
+    .hide {
+        display: inline-block;
+    }
     .hidden-on-mobile {
         display: none;
     }
@@ -67,5 +70,30 @@
     }
     .curriculum-button {
         display: none;
+    }
+    /* 🔥=== === === === === ===  === === === === === ===🔥 */
+    /* 🌟<== <<<< <==>  Stories Styles  <==> >>>> ==>🌟 */
+    .stories-container {
+        padding: 60px 10px;
+    }
+    .stories-cards-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 10px;
+    }
+    .stories-btn {
+        margin-top: 30px;
+    }
+    .story-card-btn button {
+        font-size: 0.7rem;
+        padding: 8px 10px;
+        top: -14px;
+        right: -20px;
+    }
+    .story-title {
+        color: rgb(0, 0, 0);
+        font-size: 0.7rem;
+        line-height: 17px;
+        padding: 0px 10px 15px 20px;
     }
 }

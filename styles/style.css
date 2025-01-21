@@ -6,12 +6,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
-.hide {
-    display: none;
-}
 .header,
 .main {
-    max-width: 1440px;
+    max-width: 1920px;
     margin: 0 auto;
 }
 .primary-font {
@@ -121,7 +118,7 @@
 /*🌟<== <<< <==>  Curriculum section Styles  <==> >>> ==>🌟*/
 .curriculum-container {
     background: url(../assets/bg.png);
-    background-size: cover;
+    background-size: contain;
     padding-top: 50px;
     background-position-x: -80px;
 }
@@ -213,4 +210,113 @@
     padding: 20px;
     border-radius: 50px;
     margin-left: 8px;
+}
+/* 🔥=== === === === === === === === === === === === ===🔥 */
+/*🌟 <== <<< <==>  Stories section Styles  <==> >>> ==> 🌟*/
+.stories-container {
+    background: url(../assets/bg.png);
+    background: linear-gradient(
+            to top,
+            rgba(245, 180, 50, 0.3),
+            rgba(255, 255, 255, 0.309)
+        ),
+        url(../assets/bg.png);
+    background-size: contain;
+    padding: 60px 140px;
+}
+.stories-header {
+    color: black;
+    font-size: 2.85rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 60px; /*📏 margin📏 */
+}
+.stories-cards-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 20px;
+}
+.story-card {
+    background: white;
+    /* border: 5px solid; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.story-card img {
+    width: 100%;
+}
+.story-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 28.76px;
+    padding: 0px 55px 30px 35px;
+}
+#story-card-1 {
+    grid-row: span 2;
+}
+#story-card-1 h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0 70px 0 40px;
+}
+
+.story-info {
+    padding: 40px 70px 35px 40px;
+    color: rgb(102, 102, 102);
+    font-weight: 500;
+    line-height: 28.76px;
+}
+.stories-btn {
+    text-align: center;
+    margin-top: 80px;
+}
+.stories-btn button {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 10px 45px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+.story-card-btn button {
+    position: relative;
+    color: white;
+    padding: 10px 20px;
+    font-family: "Raleway";
+    font-size: 1.1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 45px;
+    /* margin-top: -100px; */
+    top: -19px;
+    right: -40px;
+}
+#story-card-1 .story-card-btn button {
+    background: rgb(60, 216, 232);
+}
+#story-card-2 .story-card-btn button {
+    background: darkorange;
+}
+#story-card-3 .story-card-btn button {
+    background: rgb(96, 96, 211);
+}
+#story-card-4 .story-card-btn button {
+    background: darkcyan;
+}
+#story-card-5 .story-card-btn button {
+    background: plum;
+}
+#story-card-6 .story-card-btn button {
+    background: rgb(96, 96, 211);
+}
+#story-card-7 .story-card-btn button {
+    background: darkorange;
+}
+
+.hide {
+    display: none;
 }
